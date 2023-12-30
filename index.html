@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cdub</title>
+    <script src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="y76zenigzt8w5yb"></script>
+</head>
+<body>
+    <h1>cdub</h1>
+    <div id="dropbox-container" style="height:1000px"></div>
+
+    <script>
+        var options = {
+            link: "https://www.dropbox.com/scl/fo/ljn79ikiqitou40k25ikf/h?rlkey=jtli6mhzkb82rjbip48nn4ece",
+            folder: true,
+        };
+        Dropbox.embed(options, document.getElementById('dropbox-container'));
+    </script>
+</body>
+</html>
